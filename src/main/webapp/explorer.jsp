@@ -9,16 +9,22 @@
         }
         table {
             border: solid 0.5vw;
-            animation: rainbow 1s linear infinite;
+            animation: rainbow 4s linear infinite;
         }
 
         @keyframes rainbow {
-            0% { border-color: red }
-            20% { border-color: orange }
-            40% { border-color: yellow }
-            60% { border-color: limegreen }
-            80% { border-color: blue }
-            100% { border-color: purple }
+            100%,0%{border-color: rgb(255,0,0);}
+            8%{border-color: rgb(255,127,0);}
+            16%{border-color: rgb(255,255,0);}
+            25%{border-color: rgb(127,255,0);}
+            33%{border-color: rgb(0,255,0);}
+            41%{border-color: rgb(0,255,127);}
+            50%{border-color: rgb(0,255,255);}
+            58%{border-color: rgb(0,127,255);}
+            66%{border-color: rgb(0,0,255);}
+            75%{border-color: rgb(127,0,255);}
+            83%{border-color: rgb(255,0,255);}
+            91%{border-color: rgb(255,0,127);}
         }
         img {
             position: relative;
@@ -30,7 +36,7 @@
 <body>
 <style>
     body {
-        background: url(https://images.hdqwalls.com/download/ios-11-heritage-stripe-red-yb-1920x1080.jpg) no-repeat;
+        background: url(https://images.hdqwalls.com/download/ios-11-heritage-stripe-red-yb-1920x1080.jpg);
         background-size: 100%;
     }
 </style>
