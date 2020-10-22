@@ -11,7 +11,6 @@
             border: solid 0.5vw;
             animation: rainbow 4s linear infinite;
         }
-
         @keyframes rainbow {
             100%,0%{border-color: rgb(255,0,0);}
             8%{border-color: rgb(255,127,0);}
@@ -40,6 +39,10 @@
         background-size: 100%;
     }
 </style>
+<form action="explorer" method="post" style="float: right">
+    <input type="submit" name="logout" value="Logout"/>
+</form>
+
 <div style="margin-left: 10px">${now}</div>
 <h1 style="margin-left: 10px">${name}</h1>
 
